@@ -37,3 +37,7 @@ To push your image into docker hub, Then run
 
 Login into your docker hhub accont and check 
 ![](Image/DockerPush.JPG)
+
+**NOTE** For backend ollow the same step aove to run docker build command and push.
+
+# Using docker compose to dockerize your application
