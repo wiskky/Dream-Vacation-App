@@ -21,6 +21,8 @@ You can check your image by running
 To containarize your docker image, run 
 `# docker run -d -p 80:80 wiskky/vacancy-frontend`
 
+Note wiskky is my docker hub username, change it to your own docker hub username. 
+
 Then run `# docker ps`
 
 ![](Image/DockerImages.JPG)  
@@ -28,5 +30,10 @@ Then run `# docker ps`
 On your broswer, type http:localhost
 ![](Image/frontendOutput.JPG)
 
-Note wiskky is my docker hub username, change it to your own docker hub username.  
-Then run `docker push wiskky/vacantion-frontend:latest`  
+To push your image into docker hub, Then run 
+
+`# docker push wiskky/vacantion-frontend:latest` 
+![](Image/dockerpushh.JPG)
+
+Login into your docker hhub accont and check 
+![](Image/DockerPush.JPG)
