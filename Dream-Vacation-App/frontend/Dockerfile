@@ -7,7 +7,12 @@ ENV NODE_OPTIONS=--openssl-legacy-provider
 WORKDIR /app
 
 COPY package*.json ./
+
 RUN npm install
+
+# Ensure required packages are installed
+RUN npm install react react-dom react-scripts axios
+
 COPY . .
 RUN npm run build
 
