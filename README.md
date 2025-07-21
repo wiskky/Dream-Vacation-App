@@ -2,7 +2,6 @@
 Dream-Vacation-App
 **Ensure required packages are installed**
 Install react, react-dom, react-scripts, axios
-Use `RUN npm install react react-dom react-scripts axios`
 
 **You can build frontend and backend separately by using docker build command. Also you can also use docker-compose command to buuild and run both rontend and backend with the databbase together.**    
 **Note:** We use postgress database 
@@ -41,3 +40,19 @@ Login into your docker hhub accont and check
 **NOTE** For backend ollow the same step aove to run docker build command and push.
 
 # Using docker compose to dockerize your application
+![](Image/tree.JPG)
+
+To run your docker compose, use the below command
+`# docker-compose up --build`
+
+After finish running, then check yyour image and the container
+` # docker images`
+
+![](Image/compose1.JPG)  
+
+You will notice that, two images are added dream-vacantion-backend and dream-vacantion-frontend.
+
+Also, check if your container is running
+`# docker ps`
+
+![]()
