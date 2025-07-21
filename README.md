@@ -1,6 +1,6 @@
 # Dream-Vacation-App
-Dream-Vacation-App
-**Ensure required packages are installed**
+Dream-Vacation-App  
+**Ensure required packages are installed**  
 Install react, react-dom, react-scripts, axios
 
 **You can build frontend and backend separately by using docker build command. Also you can also use docker-compose command to buuild and run both rontend and backend with the databbase together.**    
