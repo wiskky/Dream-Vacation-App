@@ -39,7 +39,7 @@ Login into your docker hhub accont and check
 
 **NOTE** For backend ollow the same step aove to run docker build command and push.
 
-# Using docker compose to dockerize your application
+# Using docker compose to containerize your application
 ![](Image/tree.JPG)
 
 To run your docker compose, use the below command
@@ -52,7 +52,7 @@ After finish running, then check yyour image and the container
 
 You will notice that, two images are added dream-vacantion-backend and dream-vacantion-frontend.
 
-Also, check if your container is running
+Also, check if your container is running  
 `# docker ps`
 
-![]()
+![](Image/compose2.JPG)
