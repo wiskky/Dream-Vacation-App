@@ -53,6 +53,12 @@ After finish running, then check yyour image and the container
 You will notice that, two images are added dream-vacantion-backend and dream-vacantion-frontend.
 
 Also, check if your container is running  
-`# docker ps`
+`# docker ps`  
 
-![](Image/compose2.JPG)
+![](Image/compose2.JPG)  
+
+Now go to your browser and check yyour application if it is running  
+
+`http://localhost:3000`  
+
+![](Image/Result.JPG)
