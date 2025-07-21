@@ -1,5 +1,6 @@
 # Dream-Vacation-App
-Dream-Vacation-App  
+The Dream-Vacation-App is a full-stack web application that helps users explore vacation destinations, built with a React frontend, Node.js backend, PostgreSQL database, and fully containerized using Docker and Docker Compose.
+
 **Ensure required packages are installed**  
 Install react, react-dom, react-scripts, axios
 
