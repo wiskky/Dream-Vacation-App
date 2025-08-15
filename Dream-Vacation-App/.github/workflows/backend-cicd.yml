@@ -2,15 +2,15 @@ name: Backend CICD
 
 on:
   push:
-    branches: [ "vacation-cicd" ]
+    branches: [ "main" ]
     paths:
       - 'backend/**'
   pull_request:
-    branches: [ "vacation-cicd" ]
+    branches: [ "main" ]
     paths:
       - 'backend/**'
   workflow_dispatch:
-    
+
 env:
   REGISTRY: docker.io
   IMAGE_NAME: vacation-backend

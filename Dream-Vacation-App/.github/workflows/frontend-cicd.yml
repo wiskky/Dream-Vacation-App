@@ -2,11 +2,11 @@ name: Frontend CICD
 
 on:
   push:
-    branches: [ "vacation-cicd" ]
+    branches: [ "main" ]
     paths:
       - 'frontend/**'
   pull_request:
-    branches: [ "vacation-cicd" ]
+    branches: [ "main" ]
     paths:
       - 'frontend/**'
   workflow_dispatch:
